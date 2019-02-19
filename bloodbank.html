@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blood bank management system</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bloodbank.css">
+	<style type="text/css">
+		span{
+			font-weight: 700;
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+		a,input{
+			 margin-left: 40px;
+		}
+		label{
+			margin-left: 40px;
+			font-weight: 700;
+			font-size: 40px;
+			text-transform: uppercase;
+		}
+		button{
+			margin-left: 40px;
+			margin-bottom: 20px;
+		}
+	</style>
+	
+</head>
+<body >
+  <nav class="navbar navbar-default" style="background-color: gray;">
+<div class="container">
+	  <span class="navbar-brand">BLood bank management</span>
+</div>
+</nav>
+<br>
+<div class="jumbotron bg-info">
+<form action="bloodbank.php" method="post">
+	<label>search by city and state <br></label>
+	<br>
+    	<span>state</span><input style="margin-left: 28px;" type="text" name="state" placeholder="enter state">
+    	<br>
+    	<span>city</span><input type="text" name="city" placeholder="enter city">
+    	<br>
+    <button type="submit" class="btn btn-sm bg-danger ">search</button>
+</form>
+<a href="intermediate.html" class="btn btn-md bg-secondary" ><span style="color: black;">either search by blood group</span></a>
+</div>
+</body>
+</html>

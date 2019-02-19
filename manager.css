@@ -1,0 +1,28 @@
+
+.position{
+	padding: 130px 500px 50px 200px;
+	height:100%;
+	margin-bottom: 0px;
+
+}
+.new{
+	margin-top: 10px;
+	 width: 410px;
+}
+.new:hover{
+	background-color:black;
+}
+.center{
+	text-align: center;
+	font-weight: 700px;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 0px;
+	display: block;
+	color:green;
+	text-shadow: 2px 2px 3px  lightpink,2px 2px violet
+	 ,2px 2px white;
+}
+body{
+	
+}

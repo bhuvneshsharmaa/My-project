@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blood donation management system</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<style type="text/css">
+		span,h1{
+			text-transform: uppercase;
+			font-weight: 700;
+		    font-size: 25px;
+            color:white;
+		}
+		a,input{
+			 margin-left: 40px;
+		}
+		label{
+			margin-left: 40px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+		button{
+			margin-left: 10px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	  <nav class="navbar navbar-default" style="background-color: gray;">
+<div class="container">
+	  <span class="navbar-brand">BLood bank management</span>
+</div>
+</nav>
+	<div class="jumbotron bg-warning">
+		<h1>search by blood group</h1>
+<form action="bloodbank1.php" method="post">
+	<br>
+    	<span>bloodgroup</span><input type="text" name="bloodgroup" placeholder="enter bloodgroup">
+    	
+    <button type="submit" class="btn btn-sm bg-danger">search</button>
+</form>
+</div>
+</body>
+</html>

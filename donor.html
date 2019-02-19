@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blood donation management system</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <style type="text/css">
+    label{
+      text-decoration-color: black;
+      font-weight: 700;
+      font-size: 25px;
+      text-transform: uppercase;
+    }
+    .width{
+      width:30%;
+      margin:150px 0px 40px 20px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+ 
+    body{
+     background-color: gray;
+      background-size: cover;
+    }
+   a span{
+      color:black;
+      padding-left: 60px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 2px black;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navabr-fixed-top bg-warning">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span>donor login pannel</span></a>
+    </div>
+ 
+</nav>
+<div class="jumbotron bg-warning width">
+<form action="donor.php" method="post">
+  <div class="form-group">
+    <label for="did">donor id</label>
+    <input type="number" class="form-control" id="did" placeholder="enter id here" name="did">
+  </div>
+  <div class="form-group">
+    <label for="dname">donor name</label>
+    <input type="text" class="form-control" id="dname" placeholder="enter dname here" name="name">
+    <br>
+    <button class="btn btn-primary btn-lg"><span>show</span></button>
+  </div>
+</form>
+
+</div>
+
+</body>
+</html>

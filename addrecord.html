@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>view record</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/9BED733B-F685-CD4B-8727-08306B0C0F69/main.js" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-info">
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+		<ul class="nav navbar-nav"><li class="active"><a class="navbar-brand" ><span>ADD NEW RECORD</span></a></li></ul>
+	</div>
+	</div>
+</nav>
+<div class="container">
+<form action="insertrecord.php" method="POST">
+		<div class="row">
+		<div class="col-lg-6 bg-warning">
+			<div calss="form-group">
+<label for="USERNAME">NAME:</label>
+<input type="text" class="form-control" placeholder="Enter Name" name="name">
+</div></br>
+<div calss="form-group">
+<label for="USERNAME">DONER ID:</label>
+<input type="number" class="form-control" placeholder="Enter Doner id" name="did">
+</div></br>
+<div calss="form-group">
+<label for="USERNAME">AGE:</label>
+<input type="number" class="form-control" placeholder="Enter Age" name="age">
+</div></br>
+<div calss="form-group">
+<label for="USERNAME">SEX:</label>
+<input type="text" class="form-control" placeholder="Enter Sex" name="sex">
+</div></br>
+<div calss="form-group">
+<label for="USERNAME">D.O.B:</label>
+<input type="number" class="form-control" placeholder="Enter Dob" name="dob">
+</div></br>
+<div calss="form-group">
+<label for="USERNAME">BLOOD GROUP:</label>
+<input type="text" class="form-control" placeholder="Enter Blood group" name="bloodgroup">
+</div></br>
+<div calss="form-group">
+<label for="USERNAME">CONTACT NO:</label>
+<input type="number" class="form-control" placeholder="Enter Contact no" name="contactno">
+</div></br>
+<div calss="form-group">
+<div><button type="submit" class="btn btn-lg bg-primary">ADD</div></button></br>
+</div>
+</div>
+</div>
+</form>
+</body>
+</html>
